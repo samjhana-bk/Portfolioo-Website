@@ -1,0 +1,76 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 11/09/2020 09:11
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-github:before { content: "\f100"; }
+.flaticon-book:before { content: "\f101"; }
+.flaticon-computer:before { content: "\f102"; }
+.flaticon-globe:before { content: "\f103"; }
+.flaticon-electric-light-bulb:before { content: "\f104"; }
+.flaticon-add:before { content: "\f105"; }
+.flaticon-team:before { content: "\f106"; }
+.flaticon-like:before { content: "\f107"; }
+.flaticon-home:before { content: "\f108"; }
+.flaticon-phone:before { content: "\f109"; }
+.flaticon-mail:before { content: "\f10a"; }
+.flaticon-internship:before { content: "\f10b"; }
+.flaticon-student:before { content: "\f10c"; }
+.flaticon-facebook:before { content: "\f10d"; }
+.flaticon-instagram:before { content: "\f10e"; }
+.flaticon-linkedin:before { content: "\f10f"; }
+.flaticon-twitter:before { content: "\f110"; }
+.flaticon-menu:before { content: "\f111"; }
+    
+    $font-Flaticon-github: "\f100";
+    $font-Flaticon-book: "\f101";
+    $font-Flaticon-computer: "\f102";
+    $font-Flaticon-globe: "\f103";
+    $font-Flaticon-electric-light-bulb: "\f104";
+    $font-Flaticon-add: "\f105";
+    $font-Flaticon-team: "\f106";
+    $font-Flaticon-like: "\f107";
+    $font-Flaticon-home: "\f108";
+    $font-Flaticon-phone: "\f109";
+    $font-Flaticon-mail: "\f10a";
+    $font-Flaticon-internship: "\f10b";
+    $font-Flaticon-student: "\f10c";
+    $font-Flaticon-facebook: "\f10d";
+    $font-Flaticon-instagram: "\f10e";
+    $font-Flaticon-linkedin: "\f10f";
+    $font-Flaticon-twitter: "\f110";
+    $font-Flaticon-menu: "\f111";
